@@ -1,0 +1,57 @@
+#memoryboard{
+    background:#F38630;
+    border: #E0E4cc 10px solid;
+    width: 532px;
+    height: 532px;
+    padding: 24px;
+    margin: 0px auto;
+}
+
+#memoryboard > div{
+    background-image: url("images/bg.jpg"); 
+    border: 1px solid #000;
+    width:71px;
+    height: 71px;
+    float:left;
+    margin: 10px;
+    padding:20px;
+    cursor: pointer;
+    background-position:center center;
+}
+
+h1 {
+    margin: 0 0 75px 0;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace, sans-serif ;
+    font-size: 54px;
+}
+
+h2 {
+    margin: 75px 0 0 0;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace, sans-serif ;
+    font-size: 36px;
+}
+
+
+@media screen and (max-width: 480px) {
+ div#memoryboard{
+    background:#F38630;
+    border: #E0E4cc 10px solid;
+    width: 272px;
+    height: 272px;
+    padding: 12px;
+    margin: 0px auto;
+}
+
+div#memoryboard > div{
+    background-image: url ("images/bg.jpg"); 
+    border: 1px solid #000;
+    width:36px;
+    height: 36px;
+    float:left;
+    margin: 5px;
+    padding:10px;
+    cursor: pointer;
+} 
+}  
